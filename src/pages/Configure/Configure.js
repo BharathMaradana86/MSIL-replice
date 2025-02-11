@@ -304,17 +304,18 @@ async function login(event){
         email:email,
         password:password
       }
-      const res =await handleLoginContext(data);
-      if(res?.data == "Email Not Found! Please Register") {
-            setOpenEmailNotFoundDialog(true);
-      } else if(res?.data == "Password Wrong") {
-            setOpenInvalidCredentialsDialog(true);
-      } else {
+      setDialog1(false);
+      // const res =await handleLoginContext(data);
+      // if(res?.data == "Email Not Found! Please Register") {
+      //       setOpenEmailNotFoundDialog(true);
+      // } else if(res?.data == "Password Wrong") {
+      //       setOpenInvalidCredentialsDialog(true);
+      // } else {
        
-        const expirationTime = Date.now() + 5 * 60 * 1000; // 5 minutes from now
-        localStorage.setItem('authExpiration', expirationTime);
-          setDialog1(false);
-      }
+      //   const expirationTime = Date.now() + 5 * 60 * 1000; // 5 minutes from now
+      //   localStorage.setItem('authExpiration', expirationTime);
+      //     setDialog1(false);
+      // }
     }
 }
 

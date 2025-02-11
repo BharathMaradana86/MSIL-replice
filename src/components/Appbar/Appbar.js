@@ -149,7 +149,7 @@ export default function Appbar() {
                 Service Managaement
               </MenuItem> */}
 
-            { UserCredentials && UserCredentials[0] && UserCredentials[0]?.roles == "admin" && ( <MenuItem onClick={() => {
+            {  ( <MenuItem onClick={() => {
                   navigate('/user')
                 }
               } sx={{color:'#232b39',fontSize:'16px',fontWeight:'500',lineHeight:'22px'}}>
