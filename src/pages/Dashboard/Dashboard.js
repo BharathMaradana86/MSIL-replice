@@ -837,7 +837,7 @@ called();
                               </div>
                             </td>
                             <td style={{color:'#395DAB',fontWeight:'600',cursor:'pointer'}}>
-                            <a href={`/inspection/overview/{"id":11891,"datetime":"2024-07-11T18:03:24.000Z","Shift":"Shift B","Model":"YL188C7CP6810309","ModelName":"YL12023MC20P68LHD4ATK15STD2","ModelID":2044,"PSN":"7116","ChassisNumber":"MA3AVC71SSA510851","ImageCount":9}`} target="_blank" style={{textDecoration:'none',color:'#395DAB'}}> View Details</a> 
+                            <a href={`/inspection/overview/{"id":11891,"datetime":"2024-07-11T18:03:24.000Z","Shift":"Shift B","Model":"YL188C7CP6810309","ModelName":"YL12023MC20P68L","ModelID":2044,"PSN":"7116","ChassisNumber":"MA3AVC71SSA510851","ImageCount":9}`} target="_blank" style={{textDecoration:'none',color:'#395DAB'}}> View Details</a> 
                             </td>
                           </tr>
                         );
