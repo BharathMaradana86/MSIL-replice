@@ -54,81 +54,93 @@ export default function Reports() {
         [
         {
             "id": 1260,
-            "model": 'YHB23D2BP0600000',
-            "variant": 'YHC',
+            "ChassisNumber": 'YHB23D2BP0600000',
+            "Model": 'YHC',
+            "PSN": 1260,
             "childcount": 21,
             "partcount": 21,
-            "shift": "A",
-            "datetime": "10 Apr 2024, 10:38 AM",
+            "Shift": "A",
+            "datetime": "02 Feb 2025, 10:38 AM",
             "status": false,
             "action": "View Details"
           },
           {
             "id": 1260,
-            "model": 'YHB23D2BP0600000',
-            "variant": 'YHC',
+            "ChassisNumber": 'YHB23D2BP0600000',
+            "Model": 'YHC',
+            "PSN": 1260,
             "childcount": 21,
             "partcount": 21,
-            "shift": "A",
-            "datetime": "10 Apr 2024, 10:38 AM",
-            "status": true,
+            "Shift": "A",
+            "datetime": "02 Feb 2025, 10:38 AM",
+            "status": false,
             "action": "View Details"
           },
           {
             "id": 1260,
-            "model": 'YHB23D2BP0600000',
-            "variant": 'YHC',
+            "ChassisNumber": 'YHB23D2BP0600000',
+            "Model": 'YHC',
+            "PSN": 1260,
             "childcount": 21,
             "partcount": 21,
-            "shift": "A",
-            "datetime": "10 Apr 2024, 10:38 AM",
-            "status": true,
+            "Shift": "A",
+            
+            "datetime": "02 Feb 2025, 10:38 AM",
+            "status": false,
             "action": "View Details"
           },
           {
             "id": 1260,
-            "model": 'YHB23D2BP0600000',
-            "variant": 'YHC',
+            "ChassisNumber": 'YHB23D2BP0600000',
+            "Model": 'YHC',
+            "PSN": 1260,
             "childcount": 21,
             "partcount": 21,
-            "shift": "A",
-            "datetime": "10 Apr 2024, 10:38 AM",
-            "status": true,
-            "action": "View Details"
-        },
-        {
-            "id": 1260,
-            "model": 'YHB23D2BP0600000',
-            "variant": 'YHC',
-            "childcount": 21,
-            "partcount": 21,
-            "shift": "A",
-            "datetime": "10 Apr 2024, 10:38 AM",
+            "Shift": "A",
+            
+            "datetime": "02 Feb 2025, 10:38 AM",
             "status": false,
             "action": "View Details"
-        },
-        {
+          },
+          {
             "id": 1260,
-            "model": 'YHB23D2BP0600000',
-            "variant": 'YHC',
+            "ChassisNumber": 'YHB23D2BP0600000',
+            "Model": 'YHC',
+            "PSN": 1260,
             "childcount": 21,
             "partcount": 21,
-            "shift": "A",
-            "datetime": "10 Apr 2024, 10:38 AM",
+            "Shift": "A",
+            
+            "datetime": "02 Feb 2025, 10:38 AM",
             "status": false,
             "action": "View Details"
-        },
-        {
+          },
+          {
             "id": 1260,
-            "model": 'YHB23D2BP0600000',
-            "variant": 'YHC',
+            "ChassisNumber": 'YHB23D2BP0600000',
+            "Model": 'YHC',
+            "PSN": 1260,
             "childcount": 21,
             "partcount": 21,
-            "shift": "A",
-            "datetime": "10 Apr 2024, 10:38 AM",
-            "status": true,
+            "Shift": "A",
+            
+            "datetime": "02 Feb 2025, 10:38 AM",
+            "status": false,
             "action": "View Details"
-        },
+          },
+          {
+            "id": 1260,
+            "ChassisNumber": 'YHB23D2BP0600000',
+            "Model": 'YHC',
+            "PSN": 1260,
+            "childcount": 21,
+            "partcount": 21,
+            "Shift": "A",
+            
+            "datetime": "02 Feb 2025, 10:38 AM",
+            "status": false,
+            "action": "View Details"
+          },
       ]
       );
 
@@ -278,7 +290,7 @@ export default function Reports() {
                       const res = await fetchReportsInspections(data);
                       console.log(JSON.stringify(res));
                       if(res?.data?.message?.length > 0){
-                        setReportsData(res?.data?.message);
+                     //   setReportsData(res?.data?.message);
                         // if(res?.data?.message?.length < ((localStorage?.getItem("reportsPage") || defectPage) * 5)) {
                          
                         //   localStorage.setItem("reportsPage",0);
@@ -287,16 +299,14 @@ export default function Reports() {
                       }else{
                         // localStorage.setItem("reportsPage",0);
                         // setDefectPage(0);
-                        setReportsData([]);
+                       // setReportsData([]);
                       }
                       setLoader(false);
                 }
                 called();
       },[dashboardDate,shift]);
       const [searchTerm, setSearchTerm] = useState('');
-      const filteredData = reportsData?.filter((data) =>
-        data?.PSN?.toLowerCase().includes(searchTerm?.toLowerCase()) || data?.Model?.toLowerCase().includes(searchTerm?.toLowerCase()) || data?.ChassisNumber?.toLowerCase().includes(searchTerm?.toLowerCase())
-      );
+      const filteredData = reportsData;
 
       const handleDetailedView = async (record_id) => {
                 const data = {
@@ -669,7 +679,7 @@ export default function Reports() {
                            <td>{data?.id}</td>
                             <td style={{color:'#395DAB',fontWeight:'600',cursor:'pointer'}} >{data?.Model}</td>
                             <td>{data?.PSN}</td>
-                            <td>{(data?.PartName)?.split(',')?.length}</td>
+                            <td>21</td>
                             <td>{data?.ChassisNumber}</td>
                             <td>{data?.Shift}</td>
                             <td>

@@ -100,70 +100,71 @@ export default function Dashboard() {
       const [failedData, setFailedData] = useState(
         [
         {
-            "psn": 1260,
-            "model": 'YHB23D2BP0600000',
-            "chassisno": "MA3BNC62SRC777834",
+            "PSN": 1261,
+            "Model": 'YHB23D2BP0600000',
+            "ChassisNumber": "MA3BNC62SRC777834",
             "partcount": 21,
-            "shift": "A",
+            "Shift": "A",
             "datetime": "10 Apr 2024, 10:38 AM",
             "status": "Failed",
             "action":"Details"
           },
           {
-            "psn": 1260,
-            "model": 'YHB23D2BP0600000',
-            "chassisno": "MA3BNC62SRC777834",
+            "PSN": 1262,
+            "Model": 'YHB23D2BP0600000',
+            "ChassisNumber": "MA3BNC62SRC777834",
             "partcount": 21,
-            "shift": "A",
+            "Shift": "A",
             "datetime": "10 Apr 2024, 10:38 AM",
             "status": "Failed",
             "action":"Details"
           },
           {
-            "psn": 1260,
-            "model": 'YHB23D2BP0600000',
-            "chassisno": "MA3BNC62SRC777834",
+            "PSN": 1263,
+            "Model": 'YHB23D2BP0600000',
+            "ChassisNumber": "MA3BNC62SRC777834",
             "partcount": 21,
-            "shift": "A",
+            "Shift": "A",
             "datetime": "10 Apr 2024, 10:38 AM",
             "status": "Failed",
             "action":"Details"
           },
           {
-            "psn": 1260,
-            "model": 'YHB23D2BP0600000',
-            "chassisno": "MA3BNC62SRC777834",
+            "PSN": 1264,
+            "Model": 'YHB23D2BP0600000',
+            "ChassisNumber": "MA3BNC62SRC777834",
             "partcount": 21,
-            "shift": "A",
+            "Shift": "A",
             "datetime": "10 Apr 2024, 10:38 AM",
             "status": "Failed",
             "action":"Details"
         },
         {
-          "psn": 1260,
-          "model": 'YHB23D2BP0600000',
-          "chassisno": "MA3BNC62SRC777834",
+          "PSN": 1265,
+          "Model": 'YHB23D2BP0600000',
+          "ChassisNumber": "MA3BNC62SRC777834",
           "partcount": 21,
-          "shift": "A",
+          "Shift": "A",
           "datetime": "10 Apr 2024, 10:38 AM",
           "status": "Failed",
           "action":"Details"
         },
         {
-          "psn": 1260,
-          "model": 'YHB23D2BP0600000',
-          "chassisno": "MA3BNC62SRC777834",
+          "PSN": 1266,
+          "Model": 'YHB23D2BP0600000',
+          "ChassisNumber": "MA3BNC62SRC777834",
           "partcount": 21,
-          "shift": "A",
+          "Shift": "A",
           "datetime": "10 Apr 2024, 10:38 AM",
           "status": "Failed",
+          "action":"Details"
         },
         {
-          "psn": 1260,
-          "model": 'YHB23D2BP0600000',
-          "chassisno": "MA3BNC62SRC777834",
+          "PSN": 1267,
+          "Model": 'YHB23D2BP0600000',
+          "ChassisNumber": "MA3BNC62SRC777834",
           "partcount": 21,
-          "shift": "A",
+          "Shift": "A",
           "datetime": "10 Apr 2024, 10:38 AM",
           "status": "Failed",
           "action":"Details"
@@ -174,149 +175,151 @@ export default function Dashboard() {
       const [defectsData, setDefectsData] = useState(
         [
           {
-            "psn": 1260,
-            "model": 'YHB23D2BP0600000',
-            "chassisno": "MA3BNC62SRC777834",
-            "partcode": '39105M77S00-5PK',
-            "shift": "A",
+              "PSN": 1261,
+              "Model": 'YHB23D2BP0600000',
+              "ChassisNumber": "MA3BNC62SRC777834",
+              "partcount": 21,
+              "Shift": "A",
+              "datetime": "10 Apr 2024, 10:38 AM",
+              "status": "Failed",
+              "action":"Details"
+            },
+            {
+              "PSN": 1262,
+              "Model": 'YHB23D2BP0600000',
+              "ChassisNumber": "MA3BNC62SRC777834",
+              "partcount": 21,
+              "Shift": "A",
+              "datetime": "10 Apr 2024, 10:38 AM",
+              "status": "Failed",
+              "action":"Details"
+            },
+            {
+              "PSN": 1263,
+              "Model": 'YHB23D2BP0600000',
+              "ChassisNumber": "MA3BNC62SRC777834",
+              "partcount": 21,
+              "Shift": "A",
+              "datetime": "10 Apr 2024, 10:38 AM",
+              "status": "Failed",
+              "action":"Details"
+            },
+            {
+              "PSN": 1264,
+              "Model": 'YHB23D2BP0600000',
+              "ChassisNumber": "MA3BNC62SRC777834",
+              "partcount": 21,
+              "Shift": "A",
+              "datetime": "10 Apr 2024, 10:38 AM",
+              "status": "Failed",
+              "action":"Details"
+          },
+          {
+            "PSN": 1265,
+            "Model": 'YHB23D2BP0600000',
+            "ChassisNumber": "MA3BNC62SRC777834",
+            "partcount": 21,
+            "Shift": "A",
             "datetime": "10 Apr 2024, 10:38 AM",
-            "status": "Missing",
+            "status": "Failed",
             "action":"Details"
           },
           {
-            "psn": 1260,
-            "model": 'YHB23D2BP0600000',
-            "chassisno": "MA3BNC62SRC777834",
-            "partcode": '39105M77S00-5PK',
-            "shift": "A",
+            "PSN": 1266,
+            "Model": 'YHB23D2BP0600000',
+            "ChassisNumber": "MA3BNC62SRC777834",
+            "partcount": 21,
+            "Shift": "A",
             "datetime": "10 Apr 2024, 10:38 AM",
-            "status": "Incorrect",
+            "status": "Failed",
             "action":"Details"
           },
-        {
-          "psn": 1260,
-          "model": 'YHB23D2BP0600000',
-          "chassisno": "MA3BNC62SRC777834",
-          "partcode": '39105M77S00-5PK',
-          "shift": "A",
-          "datetime": "10 Apr 2024, 10:38 AM",
-          "status": "Flipped",
-          "action":"Details"
-        },
-        {
-          "psn": 1260,
-          "model": 'YHB23D2BP0600000',
-          "chassisno": "MA3BNC62SRC777834",
-          "partcode": '39105M77S00-5PK',
-          "shift": "A",
-          "datetime": "10 Apr 2024, 10:38 AM",
-          "status": "Failed",
-          "action":"Details"
-        },
-        {
-          "psn": 1260,
-          "model": 'YHB23D2BP0600000',
-          "chassisno": "MA3BNC62SRC777834",
-          "partcode": '39105M77S00-5PK',
-          "shift": "A",
-          "datetime": "10 Apr 2024, 10:38 AM",
-          "status": "Failed",
-          "action":"Details"
-        },
-        {
-          "psn": 1260,
-          "model": 'YHB23D2BP0600000',
-          "chassisno": "MA3BNC62SRC777834",
-          "partcode": '39105M77S00-5PK',
-          "shift": "A",
-          "datetime": "10 Apr 2024, 10:38 AM",
-          "status": "Failed",
-          "action":"Details"
-        },
-        {
-          "psn": 1260,
-          "model": 'YHB23D2BP0600000',
-          "chassisno": "MA3BNC62SRC777834",
-          "partcode": '39105M77S00-5PK',
-          "shift": "A",
-          "datetime": "10 Apr 2024, 10:38 AM",
-          "status": "Failed",
-          "action":"Details"
-        },
-        {
-          "psn": 1260,
-          "model": 'YHB23D2BP0600000',
-          "chassisno": "MA3BNC62SRC777834",
-          "partcode": '39105M77S00-5PK',
-          "shift": "A",
-          "datetime": "10 Apr 2024, 10:38 AM",
-          "status": "Failed",
-          "action":"Details"
-        },
-        {
-          "psn": 1260,
-          "model": 'YHB23D2BP0600000',
-          "chassisno": "MA3BNC62SRC777834",
-          "partcode": '39105M77S00-5PK',
-          "shift": "A",
-          "datetime": "10 Apr 2024, 10:38 AM",
-          "status": "Failed",
-          "action":"Details"
-        },
-        {
-          "psn": 1260,
-          "model": 'YHB23D2BP0600000',
-          "chassisno": "MA3BNC62SRC777834",
-          "partcode": '39105M77S00-5PK',
-          "shift": "A",
-          "datetime": "10 Apr 2024, 10:38 AM",
-          "status": "Failed",
-          "action":"Details"
-        },
-        {
-          "psn": 1260,
-          "model": 'YHB23D2BP0600000',
-          "chassisno": "MA3BNC62SRC777834",
-          "partcode": '39105M77S00-5PK',
-          "shift": "A",
-          "datetime": "10 Apr 2024, 10:38 AM",
-          "status": "Failed",
-          "action":"Details"
-        },
-        {
-          "psn": 1260,
-          "model": 'YHB23D2BP0600000',
-          "chassisno": "MA3BNC62SRC777834",
-          "partcode": '39105M77S00-5PK',
-          "shift": "A",
-          "datetime": "10 Apr 2024, 10:38 AM",
-          "status": "Failed",
-          "action":"Details"
-        }
-      ]
+          {
+            "PSN": 1267,
+            "Model": 'YHB23D2BP0600000',
+            "ChassisNumber": "MA3BNC62SRC777834",
+            "partcount": 21,
+            "Shift": "A",
+            "datetime": "10 Apr 2024, 10:38 AM",
+            "status": "Failed",
+            "action":"Details"
+          },
+        ]
       );
 
       const [uninspectedvehicles,setUninspectedData] = useState([
-        {
-          "psn": 1260,
-          "model": 'YHB23D2BP0600000',
-          "chassisno": "MA3BNC62SRC777834",
-          "partcode": '39105M77S00-5PK',
-          "shift": "A",
-          "datetime": "10 Apr 2024, 10:38 AM",
-          "status": "Failed",
-          "action":"Details"
-        },
-        {
-          "psn": 1260,
-          "model": 'YHB23D2BP0600000',
-          "chassisno": "MA3BNC62SRC777834",
-          "partcode": '39105M77S00-5PK',
-          "shift": "A",
-          "datetime": "10 Apr 2024, 10:38 AM",
-          "status": "Failed",
-          "action":"Details"
-        }
+        [
+          {
+              "PSN": 1261,
+              "Model": 'YHB23D2BP0600000',
+              "ChassisNumber": "MA3BNC62SRC777834",
+              "partcount": 21,
+              "Shift": "A",
+              "datetime": "10 Apr 2024, 10:38 AM",
+              "status": "Failed",
+              "action":"Details"
+            },
+            {
+              "PSN": 1262,
+              "Model": 'YHB23D2BP0600000',
+              "ChassisNumber": "MA3BNC62SRC777834",
+              "partcount": 21,
+              "Shift": "A",
+              "datetime": "10 Apr 2024, 10:38 AM",
+              "status": "Failed",
+              "action":"Details"
+            },
+            {
+              "PSN": 1263,
+              "Model": 'YHB23D2BP0600000',
+              "ChassisNumber": "MA3BNC62SRC777834",
+              "partcount": 21,
+              "Shift": "A",
+              "datetime": "10 Apr 2024, 10:38 AM",
+              "status": "Failed",
+              "action":"Details"
+            },
+            {
+              "PSN": 1264,
+              "Model": 'YHB23D2BP0600000',
+              "ChassisNumber": "MA3BNC62SRC777834",
+              "partcount": 21,
+              "Shift": "A",
+              "datetime": "10 Apr 2024, 10:38 AM",
+              "status": "Failed",
+              "action":"Details"
+          },
+          {
+            "PSN": 1265,
+            "Model": 'YHB23D2BP0600000',
+            "ChassisNumber": "MA3BNC62SRC777834",
+            "partcount": 21,
+            "Shift": "A",
+            "datetime": "10 Apr 2024, 10:38 AM",
+            "status": "Failed",
+            "action":"Details"
+          },
+          {
+            "PSN": 1266,
+            "Model": 'YHB23D2BP0600000',
+            "ChassisNumber": "MA3BNC62SRC777834",
+            "partcount": 21,
+            "Shift": "A",
+            "datetime": "10 Apr 2024, 10:38 AM",
+            "status": "Failed",
+            "action":"Details"
+          },
+          {
+            "PSN": 1267,
+            "Model": 'YHB23D2BP0600000',
+            "ChassisNumber": "MA3BNC62SRC777834",
+            "partcount": 21,
+            "Shift": "A",
+            "datetime": "10 Apr 2024, 10:38 AM",
+            "status": "Failed",
+            "action":"Details"
+          },
+        ]
       ])
 
       const [failedPage, setFailedPage] = useState(0);
@@ -342,7 +345,7 @@ export default function Dashboard() {
       const [shift,setShift] = useState('All Shifts')
 
       // useEffect(() => {
-      //             async function called(){
+      //             async function called(d){
       //                       try { 
       //                               let shiftFilter = ''
       //                               if(shift !== "All Shifts"){
@@ -589,19 +592,13 @@ called();
       const sortedDefectsData = useMemo(() => sortData(defectsData, sortType), [defectsData, sortType]);
       const sortedUninspectedData = useMemo(() => sortData(uninspectedvehicles,sortType_2),[uninspectedvehicles,sortType_2])
       const [searchTerm, setSearchTerm] = useState('');
-      const filteredData = sortedFailedData?.filter((data) =>
-        data?.PSN?.toLowerCase().includes(searchTerm?.toLowerCase()) || data?.Model?.toLowerCase().includes(searchTerm?.toLowerCase()) || data?.ChassisNumber?.toLowerCase().includes(searchTerm?.toLowerCase())
-      );
+      const filteredData = failedData
 
       const [searchTerm_1, setSearchTerm_1] = useState('');
-      const filteredData_1 = sortedDefectsData?.filter((data) =>
-        data?.PSN?.toLowerCase().includes(searchTerm_1?.toLowerCase()) || data?.Model?.toLowerCase().includes(searchTerm_1?.toLowerCase()) || data?.ChassisNumber?.toLowerCase().includes(searchTerm_1?.toLowerCase())
-      );
+      const filteredData_1 = defectsData;
 
       const [searchTerm_2, setSearchTerm_2] = useState('');
-      const filteredData_2 = sortedUninspectedData?.filter((data) =>
-        data?.PSN?.toLowerCase().includes(searchTerm_1?.toLowerCase()) || data?.Model?.toLowerCase().includes(searchTerm_1?.toLowerCase()) || data?.ChassisNumber?.toLowerCase().includes(searchTerm_1?.toLowerCase())
-      );
+      const filteredData_2 = uninspectedvehicles;
 
   return (
     <>
@@ -840,7 +837,7 @@ called();
                               </div>
                             </td>
                             <td style={{color:'#395DAB',fontWeight:'600',cursor:'pointer'}}>
-                            <a href={`/inspection/overview/${JSON.stringify(data)}`} target="_blank" style={{textDecoration:'none',color:'#395DAB'}}> View Details</a> 
+                            <a href={`/inspection/overview/{"id":11891,"datetime":"2024-07-11T18:03:24.000Z","Shift":"Shift B","Model":"YL188C7CP6810309","ModelName":"YL12023MC20P68LHD4ATK15STD2","ModelID":2044,"PSN":"7116","ChassisNumber":"MA3AVC71SSA510851","ImageCount":9}`} target="_blank" style={{textDecoration:'none',color:'#395DAB'}}> View Details</a> 
                             </td>
                           </tr>
                         );
