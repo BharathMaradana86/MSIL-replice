@@ -60,19 +60,19 @@ export default function Configure() {
     const [data, setData] = useState(
         [
         {
-            "model": 'YHB23D2BP0600000',
+            "Model": 'YHB23D2BP0600000',
             "partcount": 21,
             "totalinspections": 21,
             "failedinspections":  21,
         },
         {
-            "model": 'YHB23D2BP0600000',
+            "Model": 'YHB23D2BP0600000',
             "partcount": 21,
             "totalinspections": 21,
             "failedinspections":  21,
         },
         {
-            "model": 'YHB23D2BP0600000',
+            "Model": 'YHB23D2BP0600000',
             "partcount": 21,
             "totalinspections": 21,
             "failedinspections":  21,
@@ -219,9 +219,7 @@ export default function Configure() {
 
   },[]);
 
-  let filteredData = data?.filter((item) => ( item?.Model?.toLowerCase().includes(searchTerm?.toLowerCase()) || item?.code?.toLowerCase().includes(searchTerm?.toLowerCase()))
-  );
-
+  let filteredData = data;
 
 
   const updateTheModels =async () => {
