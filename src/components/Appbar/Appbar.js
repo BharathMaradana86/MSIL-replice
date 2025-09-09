@@ -82,8 +82,8 @@ export default function Appbar() {
 
                 {/* responsive menu */}
                 <div className='responsive_profile_main'>
-                  <img src={suzuki} alt='suzuki' style={{backgroundColor:'#afadb1',borderRadius:'30px'}} />
-                  <p style={{fontWeight:'bold',fontSize:'14px',color:'#101623',lineHeight:'20px',letterSpacing:'1%',textAlign:'left'}}>MSIL</p>
+                  {/* <img src={suzuki} alt='suzuki' style={{backgroundColor:'#afadb1',borderRadius:'30px'}} /> */}
+                  <p style={{fontWeight:'bold',fontSize:'14px',color:'#101623',lineHeight:'20px',letterSpacing:'1%',textAlign:'left'}}>USER</p>
                   <ExpandMoreIcon style={{width:'24px',height:'24px',color:'#A0A8B0'}} />
                 </div>
 
