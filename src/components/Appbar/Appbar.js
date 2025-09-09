@@ -71,9 +71,9 @@ export default function Appbar() {
               >
                 {/* large screen menu */}
                 <div className='profile_main'>
-                  <img src={suzuki} alt='suzuki' style={{backgroundColor:'#afadb1',borderRadius:'30px'}} />
+                  {/* <img src={suzuki} alt='suzuki' style={{backgroundColor:'#afadb1',borderRadius:'30px'}} /> */}
                   <div className='profile_sub'>
-                    <p style={{fontWeight:'bold',fontSize:'14px',color:'#101623',lineHeight:'20px',letterSpacing:'1%',textAlign:'left'}}>MSIL</p>
+                    <p style={{fontWeight:'bold',fontSize:'14px',color:'#101623',lineHeight:'20px',letterSpacing:'1%',textAlign:'left'}}>USER</p>
                     <p style={{fontSize:'12px',lineHeight:'16px',letterSpacing:'1%',color:'#A0A8B0'}}> {UserCredentials && UserCredentials[0] && UserCredentials[0]?.roles == "admin" ? "Admin" : "User"}
                     </p>
                   </div>
